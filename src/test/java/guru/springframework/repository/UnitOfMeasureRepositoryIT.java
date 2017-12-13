@@ -35,4 +35,11 @@ public class UnitOfMeasureRepositoryIT {
 
         assertEquals("Cup", teaspoon.get().getDescription());
     }
+
+    @Test
+    public void findByDescription_3() {
+        final Optional<UnitOfMeasure> teaspoon = unitOfMeasureRepository.findByDescription("Ounce");
+
+        assertEquals("Ounce", teaspoon.get().getDescription());
+    }
 }
