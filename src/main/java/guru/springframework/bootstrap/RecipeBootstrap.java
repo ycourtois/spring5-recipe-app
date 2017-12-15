@@ -2,10 +2,10 @@ package guru.springframework.bootstrap;
 
 import guru.springframework.domain.*;
 import guru.springframework.domain.enums.Difficulty;
-import guru.springframework.repository.CategoryRepository;
-import guru.springframework.repository.IngredientRepository;
-import guru.springframework.repository.RecipeRepository;
-import guru.springframework.repository.UnitOfMeasureRepository;
+import guru.springframework.repositories.CategoryRepository;
+import guru.springframework.repositories.IngredientRepository;
+import guru.springframework.repositories.RecipeRepository;
+import guru.springframework.repositories.UnitOfMeasureRepository;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
